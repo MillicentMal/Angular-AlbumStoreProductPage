@@ -7,7 +7,7 @@ import {ProductService} from '../product.service';
   styleUrls: ['./product-description.component.css']
 })
 export class ProductDescriptionComponent implements OnInit {
-  private _productService: any;
+  private _productService: ProductService;
   albumInfo: any;
 
   constructor(_productService) { }
